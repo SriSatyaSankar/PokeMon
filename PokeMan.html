@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+
+	<html>
+	
+		<head>
+			<meta charset = "utf-8" />
+			<title> PokeMan </title>
+			<meta name='viewport' content='width=device-width, height=device-height, initial-scale=1'>
+			<link rel='stylesheet' 
+				  href='https://use.fontawesome.com/releases/v5.5.0/css/all.css'>
+			<style>
+				.center {
+					  display:table-cell;
+					  text-align:centre;
+					  width: 50%;
+					  vertical-align:middle;
+					}
+					
+				.algn {
+						width:240px;
+						height:420px;
+						position:relative;
+						overflow:hidden;
+						margin:auto;
+					}
+					
+				.pocImg{
+						margin-left: 10%;
+						width: 100%;
+						padding:10%;
+						height: 100%;
+						left: -4%;
+						top: 9px;
+						position:absolute;
+					}
+					
+				.btnCls {
+						color:white;
+						border-radius: 12px;
+						position:relative;
+						top:20px;
+					}
+					
+				.arwCls {
+						position:relative;
+						top:0px;
+						padding-left:90%
+					}
+					
+				.boxCls {
+						transform: rotate(-5deg);
+						border-radius: 12px;
+						width:90%;
+						position:absolute;
+						top:50px; 
+						left:-5px
+					}
+					
+				.pocCrl {
+						margin-left: 15%;
+						align:centre;
+						position:absolute;
+						padding:30%;
+						margin-top:20px;
+						border-radius:50%;
+						top:250px;
+						width: 50%;height:50px;
+					}
+					
+				.hdgCls {
+						margin:15px;
+					}
+					
+				.prgCls {
+						font-size:8;
+						margin:15px;
+					}
+				* {
+					  box-sizing: border-box;
+					}
+					
+				.row::after {
+						  content: "";
+						  clear: both;
+						  display: none;
+						}
+						
+				@media only screen and (max-width: 578px) {
+						  /* For mobile phones: */
+						  [class*="col-"] {
+						  width:100%;
+						  }
+						  
+						 .algn {
+								width:100%;
+								height:620px;
+								position:relative;
+								overflow:hidden;
+								margin:auto;
+							}
+							
+						.hdgCls {
+						margin:15px;
+						padding-top:15px;
+							}
+					
+						.prgCls {
+								font-size:8;
+								margin:15px;
+								padding-top:10px;
+							}
+							
+						.boxCls {
+								transform: rotate(-5deg);
+								border-radius: 12px;
+								width:90%;
+								position:absolute;
+								top:50px; 
+								left:-5px;
+								height:190px;
+							}
+					
+						}
+						
+
+				@media only screen and (min-width: 768px) {
+						
+						[class*="col-"] {
+							float:left;
+							padding:10px;
+						}
+						
+						
+						
+						/* For Desktops: */
+						.col-1 {width: 8.33%;}
+						.col-2 {width: 16.66%;}
+						.col-3 {width: 25%;}
+						.col-4 {width: 33.33%;}
+						.col-5 {width: 41.66%;}
+						.col-6 {width: 50%;}
+						.col-7 {width: 58.33%;}
+						.col-8 {width: 66.66%;}
+						.col-9 {width: 75%;}
+						.col-10 {width: 83.33%;}
+						.col-11 {width: 91.66%;}
+						.col-12 {width: 100%;}
+									
+				}
+			</style>
+		</head>
+		
+		<body style = 'background-color:#f7f9f9;'>
+		  <div class = "row">
+		  
+			<div class = "col-4">
+				<div class = "algn" style = 'background-color:#74a0e8;'>
+				
+				<button class = "btnCls" style = 'background-color:#baceef;'> Bullbasaur </button>
+				<span class = 'arwCls'><i class='fas fa-arrow-right' style='color:white;'></i></span>
+				<div class = "boxCls" style = 'background-color:#e1e7f2;'>
+					<div style = 'transform: rotate(5deg);'> 
+					<h3 class = "hdgCls"> Squirtle </h3>
+					<p class = "prgCls"> Squirtle is a small pokeman
+						that resembles a light blue 
+						turtle. While it typically walks
+						on its two short legs. It has
+						been shown to run on all fours
+						in super smash Bros, Brawl.</p>
+						</div>
+				</div>
+				<div class = "center pocCrl" style = "background-color:#bdcfef;">
+				<img src = "https://img.rankedboost.com/wp-content/plugins/super-smash-bros-ultimate/assets/character-images-main/Squirtle_SSBU.png"
+						alt = "Squirtle" class="pocImg"/>
+				</div>
+				</div>
+			</div>
+			
+			<div class = "col-4" >
+				<div class = "algn" style = 'background-color:#4fb554;'>
+				
+				<button class = "btnCls" style = 'background-color:#baceef;'> Charmander </button>
+				<span class = 'arwCls'><i class='fas fa-arrow-right' style='color:white;'></i></span>
+				<div class = "boxCls" style = 'background-color:#e1e7f2;'>
+					<div style = 'transform: rotate(5deg);'> 
+					<h3 class = "hdgCls"> Bullbasaur </h3>
+					<p class = "prgCls"> Bullbasaur is a small 
+						quadruped pokeman that
+						has blue-green skin with
+						darker green patches. It has
+						red eyes with white pupils
+						and sclera's. It also has
+						pointed. </p>
+						</div>
+				</div>
+				<div class = "center pocCrl" style = "background-color:#bdcfef;">
+				<img src = "http://purepng.com/public/uploads/large/purepng.com-pokemonpokemonpocket-monsterspokemon-franchisefictional-speciesone-pokemonmany-pokemonone-pikachu-1701527785474pfkln.png"
+						alt = "Squirtle" class="pocImg"/>
+				</div>
+				</div>
+			</div>
+			
+			<div class = "col-4">
+				<div class = "algn" style = 'background-color:#f96345;'>
+				
+				<button class = "btnCls" style = 'background-color:#baceef;'> Squirtle </button>
+				<span class = 'arwCls'><i class='fas fa-arrow-right' style='color:white;'></i></span>
+				<div class = "boxCls" style = 'background-color:#e1e7f2;'>
+					<div style = 'transform: rotate(5deg);'> 
+					<h3 class = "hdgCls"> Charmander </h3>
+					<p class = "prgCls"> Charmander are small
+						bipedal lizard-like Pokemon
+						native to Kanto. They have
+						blue eyes, red-orange skin,
+						three-clawed toes, yellow
+						bellies, and yellow soles
+						under their feet.</p>
+						</div>
+				</div>
+				<div class = "center pocCrl" style = "background-color:#bdcfef;"">
+				<img src = "https://vignette.wikia.nocookie.net/pokemon/images/9/95/Charmander-GO.png/revision/latest?cb=20160809154953"
+						alt = "Squirtle" class="pocImg"/>
+				</div>
+				</div>
+			</div>
+			
+		  </div>
+		</body>
+		
+	</html>
+	
+	
