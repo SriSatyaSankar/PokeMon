@@ -1,0 +1,8 @@
+
+	
+	var app = angular.module("myApp", []);
+		app.controller("myCtrl", function($scope) {
+		$scope.records = [{"cardColors":{"bg":"#47C67B","imgbg":"#80EDAC","tagbg":"#8edbae","text":"#ffffff","textbg":"#66CF91"},"description":"Bulbasaur is a small quadruped Pokemon that has turquoise skin with darker teal patches. It has red eyes with white pupils and scleras. It also has pointed, ear-like structures on top of its head. Its snout is short and blunt.","name":"Bulbasaur","sprite":"http://purepng.com/public/uploads/large/purepng.com-pokemonpokemonpocket-monsterspokemon-franchisefictional-speciesone-pokemonmany-pokemonone-pikachu-1701527785474pfkln.png","tag":"Grass"},
+						  {"cardColors":{"bg":"#70d3e0","imgbg":"#93f9ea","tagbg":"#a6e3eb","text":"#ffffff","textbg":"#88dae5"},"description":"Squirtle is a small Pokemon that resembles a light blue turtle. While it typically walks on its two short legs, it has been shown to run on all fours in Super Smash Bros. Brawl. It has large eyes and a slightly hooked upper lip.","name":"Squirtle","sprite":"https://img.rankedboost.com/wp-content/plugins/super-smash-bros-ultimate/assets/character-images-main/Squirtle_SSBU.png","tag":"Water"},
+						  {"cardColors":{"bg":"#f88321","imgbg":"#ffb047","tagbg":"#fab275","text":"#ffffff","textbg":"#f99847"},"description":"Charmander is a bipedal, reptilian Pokemon with a primarily orange body. Its underside from the chest down and soles are cream-colored. It has two small fangs visible in its upper jaw and two smaller fangs in its lower jaw.","name":"Charamander","sprite":"https://vignette.wikia.nocookie.net/pokemon/images/9/95/Charmander-GO.png/revision/latest?cb=20160809154953","tag":"Fire"}]
+			});
