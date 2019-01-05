@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+	<html>
+	
+		<head>
+			<meta charset = "utf-8" />
+			<title> PokeMan </title>
+			<meta name='viewport' content='width=device-width, height=device-height, initial-scale=1'>
+			<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+			<script src="UIChallengeBySatya.js"></script>
+			<link rel='stylesheet' 
+				  href='https://use.fontawesome.com/releases/v5.5.0/css/all.css'>
+				  
+			<link rel='stylesheet' href='UIChallengeBySatya.css'>
+				  
+		</head>
+		
+		<body style = 'background-color:#f7f9f9;' ng-app="myApp">
+		
+		  <div class = "row" ng-controller="myCtrl">
+		  <div ng-repeat="x in records">
+			<div class = "col-4" >
+				<div class = "algn" ng-style="{'background-color':x.cardColors.bg}">
+				
+				<button class = "btnCls" ng-style="{'color':x.cardColors.text , 'background-color':x.cardColors.textbg}"> {{x.name}}  </button>
+				<span class = 'arwCls'><i class='fas fa-arrow-right' style='color:white;'></i></span>
+				<div class = "boxCls" ng-style="{'background-color':x.cardColors.textbg}">
+					<div style = 'transform: rotate(5deg);'> 
+					<h3 class = "hdgCls" ng-style="{'color':x.cardColors.text}"> {{x.name}}  </h3>
+					<p class = "prgCls" ng-style="{'color':x.cardColors.text}" >{{x.description}}</p>
+						</div>
+				</div>
+				<div class = "center pocCrl" ng-style="{'background-color':x.cardColors.imgbg}">
+				<img ng-src = "{{x.sprite}}"
+						alt = "Squirtle" class="pocImg" />
+				</div>
+				</div>
+			</div>
+			</div>
+		</div>
+		</div>
+		 
+		</body>
+		
+	</html>
+	
+	
